@@ -16,20 +16,20 @@ const Footer = () => {
           </div>
           
           <div className="flex space-x-4 items-center">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/Tech-Rangel?tab=repositories" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Github className="h-5 w-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/matheus-rangel-marques-de-barros-78a317181/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            <a href="mailto:matheusrangel_99_@hotmail.com" className="text-gray-400 hover:text-white transition-colors">
               <Mail className="h-5 w-5" />
             </a>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {currentYear} - Desenvolvedor Trainee/Júnior. Todos os direitos reservados.</p>
+          <p>&copy; {currentYear} - Matheus Rangel - Desenvolvedor Trainee/Júnior. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

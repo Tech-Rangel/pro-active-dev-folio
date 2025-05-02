@@ -42,28 +42,46 @@ const Contact = () => {
                 <div className="w-10 h-10 rounded-full bg-resume-blue bg-opacity-10 flex items-center justify-center mr-4">
                   <Mail className="text-resume-blue h-5 w-5" />
                 </div>
-                <span className="text-resume-gray">seu-email@exemplo.com</span>
+                <a href="mailto:matheusrangel_99_@hotmail.com" className="text-resume-gray hover:text-resume-blue transition-colors">
+                  matheusrangel_99_@hotmail.com
+                </a>
               </div>
               
               <div className="flex items-center">
                 <div className="w-10 h-10 rounded-full bg-resume-blue bg-opacity-10 flex items-center justify-center mr-4">
                   <Phone className="text-resume-blue h-5 w-5" />
                 </div>
-                <span className="text-resume-gray">(00) 12345-6789</span>
+                <a href="tel:+5581992423456" className="text-resume-gray hover:text-resume-blue transition-colors">
+                  +55 81 99242-3456
+                </a>
               </div>
               
               <div className="flex items-center">
                 <div className="w-10 h-10 rounded-full bg-resume-blue bg-opacity-10 flex items-center justify-center mr-4">
                   <Linkedin className="text-resume-blue h-5 w-5" />
                 </div>
-                <span className="text-resume-gray">linkedin.com/in/seu-perfil</span>
+                <a 
+                  href="https://www.linkedin.com/in/matheus-rangel-marques-de-barros-78a317181/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-resume-gray hover:text-resume-blue transition-colors"
+                >
+                  linkedin.com/in/matheus-rangel-marques-de-barros
+                </a>
               </div>
               
               <div className="flex items-center">
                 <div className="w-10 h-10 rounded-full bg-resume-blue bg-opacity-10 flex items-center justify-center mr-4">
                   <Github className="text-resume-blue h-5 w-5" />
                 </div>
-                <span className="text-resume-gray">github.com/seu-usuario</span>
+                <a 
+                  href="https://github.com/Tech-Rangel?tab=repositories" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-resume-gray hover:text-resume-blue transition-colors"
+                >
+                  github.com/Tech-Rangel
+                </a>
               </div>
             </div>
           </div>
