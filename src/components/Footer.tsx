@@ -1,0 +1,39 @@
+
+import { Github, Linkedin, Mail } from "lucide-react";
+
+const Footer = () => {
+  const currentYear = new Date().getFullYear();
+  
+  return (
+    <footer className="bg-gray-900 text-white py-10">
+      <div className="container px-4 mx-auto">
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="mb-4 md:mb-0">
+            <h2 className="text-xl font-bold">
+              <span className="text-resume-blue">Dev</span> Trainee
+            </h2>
+            <p className="text-gray-400 mt-1">Desenvolvedor Web Trainee/Júnior</p>
+          </div>
+          
+          <div className="flex space-x-4 items-center">
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Github className="h-5 w-5" />
+            </a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Linkedin className="h-5 w-5" />
+            </a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Mail className="h-5 w-5" />
+            </a>
+          </div>
+        </div>
+        
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
+          <p>&copy; {currentYear} - Desenvolvedor Trainee/Júnior. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
