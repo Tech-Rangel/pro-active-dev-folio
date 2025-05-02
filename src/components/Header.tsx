@@ -41,15 +41,21 @@ const Header = () => {
           </nav>
           {!isMobile && (
             <div className="flex space-x-3">
-              <Button variant="outline" size="icon" as="a" href="https://github.com/Tech-Rangel?tab=repositories" target="_blank" rel="noopener noreferrer">
-                <Github className="h-4 w-4" />
-              </Button>
-              <Button variant="outline" size="icon" as="a" href="https://www.linkedin.com/in/matheus-rangel-marques-de-barros-78a317181/" target="_blank" rel="noopener noreferrer">
-                <Linkedin className="h-4 w-4" />
-              </Button>
-              <Button variant="outline" size="icon" as="a" href="mailto:matheusrangel_99_@hotmail.com">
-                <Mail className="h-4 w-4" />
-              </Button>
+              <a href="https://github.com/Tech-Rangel?tab=repositories" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="icon">
+                  <Github className="h-4 w-4" />
+                </Button>
+              </a>
+              <a href="https://www.linkedin.com/in/matheus-rangel-marques-de-barros-78a317181/" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="icon">
+                  <Linkedin className="h-4 w-4" />
+                </Button>
+              </a>
+              <a href="mailto:matheusrangel_99_@hotmail.com">
+                <Button variant="outline" size="icon">
+                  <Mail className="h-4 w-4" />
+                </Button>
+              </a>
             </div>
           )}
         </div>
