@@ -11,29 +11,29 @@ const Header = () => {
       <div className="container px-4 mx-auto">
         <div className="flex justify-between items-center">
           <div>
-            <h1 className="text-xl font-bold text-resume-darkblue">
-              <span className="text-resume-blue">Dev</span> Trainee
+            <h1 className="text-xl font-bold text-gray-800">
+              <span className="text-resume-blue">Desenvolvedor</span> Junior
             </h1>
           </div>
           <nav>
             <ul className="flex space-x-2 md:space-x-6">
               <li>
-                <a href="#sobre" className="text-resume-gray hover:text-resume-blue transition-colors duration-200">
+                <a href="#sobre" className="text-gray-600 hover:text-resume-blue transition-colors duration-200">
                   Sobre
                 </a>
               </li>
               <li>
-                <a href="#experiencia" className="text-resume-gray hover:text-resume-blue transition-colors duration-200">
+                <a href="#experiencia" className="text-gray-600 hover:text-resume-blue transition-colors duration-200">
                   Experiência
                 </a>
               </li>
               <li>
-                <a href="#habilidades" className="text-resume-gray hover:text-resume-blue transition-colors duration-200">
+                <a href="#habilidades" className="text-gray-600 hover:text-resume-blue transition-colors duration-200">
                   Habilidades
                 </a>
               </li>
               <li>
-                <a href="#contato" className="text-resume-gray hover:text-resume-blue transition-colors duration-200">
+                <a href="#contato" className="text-gray-600 hover:text-resume-blue transition-colors duration-200">
                   Contato
                 </a>
               </li>
